@@ -9,3 +9,5 @@
 [](core-java-numbers.md ':include')
 
 [](core-java-strings.md ':include')
+
+[](core-java-uuid.md ':include')
