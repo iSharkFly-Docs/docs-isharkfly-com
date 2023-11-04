@@ -22,6 +22,8 @@
 
 ![](https://cdn.ossez.com/img/cwikius/cwikus-qr-toutiao.png)
 
+![](https://cdn.ossez.com/img/sharkfly/baidu/baidu-qr.jpg)
+
 ## 知乎
 请关注我们的知乎：https://www.zhihu.com/people/huyuchengus
 
