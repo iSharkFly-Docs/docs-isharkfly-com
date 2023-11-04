@@ -1,8 +1,8 @@
-# CWIKIUS 文档和手册
+# iSharkFly 文档和手册
 
-欢迎来到 HoneyMoose 文档和手册的空间
+欢迎来到鲨鱼君的文档和手册的空间
 
-GitHub 上有关 HoneyMoose 的项目：[https://github.com/honeymoose/cwikius-docs](https://github.com/honeymoose/cwikius-docs)
+GitHub 上有关 HoneyMoose 的项目：[https://github.com/iSharkfly-Docs/docs-isharkfly-com](https://github.com/iSharkfly-Docs/docs-isharkfly-com)
 
 [联系我们](CONTACT.md ':include')
 
