@@ -13,3 +13,4 @@
 - [Lambda 偶数](/algorithm/lambda-evens-lambda.md)
 - [上下计数](/algorithm/count-up-down.md)
 - [展平嵌套数组](/algorithm/flatten-nested-arrays.md)
+- [机器人移动](/algorithm/robot-movement.md)
