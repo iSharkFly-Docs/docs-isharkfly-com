@@ -1,3 +1,4 @@
+- [点积](/algorithm/dot-product.md)
 - [二叉树](/algorithm/binary-tree.md)
 - [二叉树的层次遍历]()
 - [下一个斐波拉契数](/algorithm/next-fibonacci-number.md)
