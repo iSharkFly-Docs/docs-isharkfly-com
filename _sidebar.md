@@ -22,10 +22,10 @@
   - [vTiger](vtiger/_index.md)
 
 - 数据结构和算法
-  - [算法题](algorithm/_index.md)
+  - [算法](algorithm/_index.md)
 - 
-- 求职
-  - [职场](work/workplace/index.md)
+- 技术人生
+  - [职场](work/workplace/_index.md)
   - [面试问题和经验](work/interview/index.md)
 
 - 快速导航
