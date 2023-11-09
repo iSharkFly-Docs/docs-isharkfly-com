@@ -96,6 +96,6 @@ PTO 的时候就没有说，直到他们返回公司。
 
 如你也被裁员了，想分享分享，欢迎加入我们。
 
-![2023-06-03_07-21-47|361x500](uhttps://cdn.isharkfly.com/com-isharkfly-www/discourse-uploads/optimized/2X/3/3ddefa6185f9ffcbec99502794a2232d254ddbf5_2_361x500.png)
+![2023-06-03_07-21-47|361x500](https://cdn.isharkfly.com/com-isharkfly-www/discourse-uploads/optimized/2X/3/3ddefa6185f9ffcbec99502794a2232d254ddbf5_2_361x500.png)
 
 可扫描加群，讨论下内推，刷题和面经，以及避下雷。

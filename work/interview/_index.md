@@ -38,5 +38,3 @@
 * [北美一工作搜索引擎公司技术岗面经](https://www.ossez.com/t/topic/13451)
 * [一房地产数据服务初创公司的面经](https://www.ossez.com/t/topic/13441)
 
-### 2019
-* [IT 技术岗位 2019 年北美求职流水账](https://www.ossez.com/t/it-2019/13433)

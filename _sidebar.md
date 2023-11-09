@@ -25,8 +25,9 @@
   - [算法](algorithm/_index.md)
 - 
 - 技术人生
+  - [面试](work/interview/_index.md)
   - [职场](work/workplace/_index.md)
-  - [面试问题和经验](work/interview/index.md)
+  
 
 - 快速导航
   - [WWW.CWIKI.US](https://www.cwiki.us/)
