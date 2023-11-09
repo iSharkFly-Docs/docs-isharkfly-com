@@ -1,3 +1,4 @@
+- [二叉树的序列化和反序列化（Serialize and Deserialize Binary Tree）](/algorithm/serialize-and-deserialize-binary-tree.md)
 - [岛屿个数](/algorithm/number-of-islands.md)
 - [合并 2 个有序链表](/algorithm/merge-two-sorted-lists.md)
 - [带环链表](/algorithm/linked-list-cycle.md)

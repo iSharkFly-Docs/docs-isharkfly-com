@@ -1,8 +1,8 @@
 # 展平嵌套数组（Flatten Nested Arrays）
 
-> 🔔 参与讨论：https://www.isharkfly.com/t/flatten-nested-arrays/314这个题目是在 
+> 🔔 参与讨论：https://www.isharkfly.com/t/flatten-nested-arrays/314
 
-PillPack 现场面谈的时候的一个题目。
+这个题目是在 PillPack 现场面谈的时候的一个题目。
 
 ## 中文描述
 
