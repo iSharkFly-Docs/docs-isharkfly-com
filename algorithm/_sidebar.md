@@ -1,3 +1,4 @@
+- [合并 2 个有序链表]()
 - [带环链表](/algorithm/linked-list-cycle.md)
 - [电话号码的字母组合](/algorithm/letter-combinations-of-a-phone-number.md)
 - [格雷编码](/algorithm/gray-code.md)
