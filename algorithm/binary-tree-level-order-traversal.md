@@ -41,3 +41,7 @@
 需要注意的是，因为在输出结果的时候需要按照层级来进行输出，那么需要考虑的一个算法就是二叉树的层级遍历算法。
 
 这个算法要求在遍历的时候记录树的层级。
+
+## 源代码
+GitHub 的源代码，请访问下面的链接：
+https://github.com/honeymoose/codebank-algorithm/blob/main/src/test/java/com/ossez/codebank/algorithm/tests/lintcode/LintCode0069LevelOrderTest.java
