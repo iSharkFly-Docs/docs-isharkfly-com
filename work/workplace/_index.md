@@ -12,9 +12,5 @@
 
 按照发布时间的倒序进行排列，最后发表的在最上面。
 
-如想参与支持相关的讨论和分享你的一些经验，请访问 https://www.isharkfly.com/c/code-for-life/programmer/19 页面中的内容，我们热忱的期待您的参与和分享。
-
-## 相关文章列表
-* [公司大规模裁员的时间轴](https://www.ossez.com/t/topic/14472)
-* [来聊聊才离职就被拉黑禁用的这些事](https://www.ossez.com/t/topic/14469)
-
+如想参与支持相关的讨论和分享你的一些经验，请访问 https://www.isharkfly.com/c/code-for-life/programmer/19
+页面中的内容，我们热忱的期待您的参与和分享。
