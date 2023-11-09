@@ -1,4 +1,6 @@
+- [二叉树](/algorithm/binary-tree.md)
 - [下一个斐波拉契数](/algorithm/next-fibonacci-number.md)
 - [一个字符串包裹函数](/algorithm/a-word-wrap-functionality.md)
 - [打印 100 以内的素数](/algorithm/prime-numbers-from-1-to-100.md)
 - [二进制空白](/algorithm/binary-gap.md)
+- [Lambda 偶数](/algorithm/binary-gap.md)

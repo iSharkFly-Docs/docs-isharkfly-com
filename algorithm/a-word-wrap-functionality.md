@@ -1,7 +1,7 @@
 # A "word-wrap" functionality（一个字符串包裹函数）
 
 > 🔔 参与讨论：https://www.isharkfly.com/t/a-word-wrap-functionality/13452
->
+
 
 ## 问题描述
 
