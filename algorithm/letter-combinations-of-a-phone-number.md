@@ -8,7 +8,7 @@
 
 数字和字母的的映射图片，请参考下面的电话拨号盘。
 
-![](https://www.cwiki.us/download/thumbnails/41683838/keypad.jpg?version=1&modificationDate=1544901155000&api=v2)
+![](https://cdn.isharkfly.com/com-isharkfly-www/discourse-uploads/original/2X/6/65862d012d17784537d8f697caae99d3b8f49bde.jpeg)
 
 ## 样例
 
