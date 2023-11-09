@@ -5,3 +5,4 @@
 - [打印 100 以内的素数](/algorithm/prime-numbers-from-1-to-100.md)
 - [二进制空白](/algorithm/binary-gap.md)
 - [Lambda 偶数](/algorithm/lambda-evens-lambda.md)
+- [上下计数](/algorithm/count-up-down.md)
