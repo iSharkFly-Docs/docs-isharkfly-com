@@ -12,14 +12,15 @@
   - [核心编程](java/core/_README.md)
   - [语言基础](java/fundamentals/_README.md)
 
-- 库和技术方案
-  - [JWT](jwt/README.md)
-  - [MessagePack](message-pack/index.md)
-  - [Protocol Buffers](protocol-buffers/index.md)
+- 库和技术栈
+  - [FHIR](tech-stack/fhir.md)
+  - [JWT](tech-stack/jwt/README.md)
+  - [MessagePack](tech-stack/message-pack/index.md)
+  - [Protocol Buffers](tech-stack/protocol-buffers/index.md)
   
 - 产品应用
-  - [Discourse](discourse/index.md)
-  - [vTiger](vtiger/_index.md)
+  - [Discourse](product/discourse/index.md)
+  - [vTiger](product/vtiger/_index.md)
 
 - 数据结构和算法
   - [算法](algorithm/_index.md)
