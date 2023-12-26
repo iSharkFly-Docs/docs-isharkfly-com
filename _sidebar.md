@@ -2,7 +2,7 @@
   - [文档介绍和快速链接](README.md)
   - [联系方式](CONTACT.md)
 
--程序语言
+- 程序语言
   - Java
     - [概述和环境配置](programming-language/java/_README.md)
     - [核心编程](programming-language/java/core/_README.md)
