@@ -1,8 +1,10 @@
-# HL7
+# RHEL 安装后初始化
 
-HL7 指的是一组用于在各种医疗服务提供者所使用之软件应用程序之间，传输临床和管理数据的国际标准。这些标准侧重于应用层，即OSI模型中的“第7层”。
+最近在对公司的 Linux 服务器进行一些初始化的安装和配置工作。对一个新的机器可能遇到的问题还比较多，先记录下来供以后参考。
 
-| 网站名称                  | 链接                                                           | 备注说明                |
-|-----------------------|--------------------------------------------------------------|---------------------|
-| 鲨鱼君（iSharkFly）FHIR 讨论 | https://www.isharkfly.com/tag/fhir                           | FHIR 相关技术在鲨鱼君平台上的讨论 |
-| HL7中国-医学信息标准协同工作平台    | http://wiki.hl7.org.cn:81/index.php?title=%E9%A6%96%E9%A1%B5 | FHIR 标准的官方参考网站      |
+| 配置内容                   | 内容链接                                           |
+|------------------------|------------------------------------------------|
+| Linux 安装 NTP 时间服务器     | https://www.isharkfly.com/t/linux-ntp/10441    |
+| Firewall-cmd 安装和配置开放端口 | https://www.isharkfly.com/t/firewall-cmd/13715 |
+| Linux 设置主机名            | https://www.isharkfly.com/t/linux/15230        |
+| Linux 安装 httpd 服务器     | https://www.isharkfly.com/t/linux-httpd/15231  |
