@@ -8,3 +8,4 @@
 | Firewall-cmd 安装和配置开放端口 | https://www.isharkfly.com/t/firewall-cmd/13715 |
 | Linux 设置主机名            | https://www.isharkfly.com/t/linux/15230        |
 | Linux 安装 httpd 服务器     | https://www.isharkfly.com/t/linux-httpd/15231  |
+| Linux 中安装 nginx        | https://www.isharkfly.com/t/linux-nginx/13951  |
