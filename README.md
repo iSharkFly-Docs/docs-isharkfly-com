@@ -59,7 +59,7 @@ Listening at http://localhost:3000
 
 | 网站名称                   | URL                           | NOTE                 |
 |------------------------|-------------------------------|----------------------|
-| Apache Druid 技术手册      | https://druid.ossez.com/      | Druid 手册的在线翻译版本      |
+| Apache Druid 技术手册      | https://druid.isharkfly.com/  | Druid 手册的在线翻译版本      |
 | Amazon OpenSearch 技术手册 | https://opensearch.ossez.com/ | OpenSearch 手册的在线翻译版本 |
 | HAPI FHIR              | https://fhir.isharkfly.com/#/ | FHIR 相关技术文档的收集和讨论    |
 
