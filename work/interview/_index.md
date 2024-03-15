@@ -24,19 +24,11 @@
 
 最新的内容在最前面（按照时间倒序排序）。
 
-### 2023
-
 ### 2021
 * [一次谈不上有点内卷的美东某金融公司面试](https://www.ossez.com/t/topic/13820)
 * [美东某 IoT 公司技术流程第一轮沟通就挂了](https://www.ossez.com/t/iot/13815)
 * [2021 年美东地区 IoT 公司的一次失败面试](https://www.ossez.com/t/2021-iot/13791)
 * [2021 年一次比较奇葩的 AWS 面试](https://www.ossez.com/t/2021-aws/13788)
-* [2021 疫情期间美国公司技术岗的面试流程](https://www.ossez.com/t/topic/13463)
-* [从拒绝到被拒绝](https://www.ossez.com/t/topic/13462)
-* [从一个工作到一个工作](https://www.ossez.com/t/topic/13461)
-* [北美亚特兰大一金融服务公司面试总结](https://www.ossez.com/t/topic/13453)
-* [北美一工作搜索引擎公司技术岗面经](https://www.ossez.com/t/topic/13451)
-* [一房地产数据服务初创公司的面经](https://www.ossez.com/t/topic/13441)
 
-### 2019
-* [IT 技术岗位 2019 年北美求职流水账](https://www.ossez.com/t/it-2019/13433)
+
+
