@@ -57,11 +57,11 @@ Listening at http://localhost:3000
 
 ### 后端和数据
 
-| 网站名称                   | URL                           | NOTE                 |
-|------------------------|-------------------------------|----------------------|
-| Apache Druid 技术手册      | https://druid.isharkfly.com/  | Druid 手册的在线翻译版本      |
-| Amazon OpenSearch 技术手册 | https://opensearch.ossez.com/ | OpenSearch 手册的在线翻译版本 |
-| HAPI FHIR              | https://fhir.isharkfly.com/#/ | FHIR 相关技术文档的收集和讨论    |
+| 网站名称                   | URL                                | NOTE                 |
+|------------------------|------------------------------------|----------------------|
+| Apache Druid 技术手册      | https://druid.isharkfly.com/       | Druid 手册的在线翻译版本      |
+| Amazon OpenSearch 技术手册 | https://opensearch.isharkfly.com// | OpenSearch 手册的在线翻译版本 |
+| HAPI FHIR              | https://fhir.isharkfly.com/#/      | FHIR 相关技术文档的收集和讨论    |
 
 ### 容器 docker
 
