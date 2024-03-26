@@ -54,6 +54,7 @@ Listening at http://localhost:3000
 | TypeScript 文档手册 | https://typescript.ossez.com/                                               | TypeScript 相关技术文档和手册        |
 | Angular 技术手册    | https://angular.ossez.com/                                                  | Angular 手册的在线翻译版本，从源代码中进行编译 |
 | TypeScript 文档手册 | https://typescript.ossez.com/                                               | TypeScript 相关技术文档和手册        |
+| Docsify 中文文档手册  | https://docsify.isharkfly.com/                                              | Docsify 可以快速帮你生成文档网站        |
 
 ### 后端和数据
 
