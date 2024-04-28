@@ -58,7 +58,7 @@ System.out.println(query);
 
 因目前我们使用的编译器版本比较高，为 JDK 17 的版本，所以在预览选项这里就只能对 JDK 21 的版本进行预览了。
 
-![](98cb0ad231736e2b16a915c49889b74c7c8440f3.png)
+![](https://cdn.isharkfly.com/com-isharkfly-www/discourse-uploads/original/2X/9/98cb0ad231736e2b16a915c49889b74c7c8440f3.png)
 
 ### IntelliJ IDEA
 针对使用不同的 IDE，我们也希望我们的预览功能能够在 IDEA 中也可以使用。
@@ -69,7 +69,7 @@ System.out.println(query);
 
 单击语言结构上的 SDK 默认，往下拉，就可以看到针对新版本的选项。
 
-![](3c64a3ccf02a1519a2516e36ab156fe02274819d.png)
+![](https://cdn.isharkfly.com/com-isharkfly-www/discourse-uploads/original/2X/3/3c64a3ccf02a1519a2516e36ab156fe02274819d.png)
 
 同时还可以看到那些版本是支持新特性预览的，那些版本是不支持新特性预览的。
 
