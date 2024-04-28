@@ -30,5 +30,7 @@
 * [2021 年美东地区 IoT 公司的一次失败面试](https://www.ossez.com/t/2021-iot/13791)
 * [2021 年一次比较奇葩的 AWS 面试](https://www.ossez.com/t/2021-aws/13788)
 
+### 2019
 
+* [IT 技术岗位 2019 年北美求职流水账](https://www.isharkfly.com/t/it-2019/13433)
 

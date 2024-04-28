@@ -33,7 +33,7 @@
     - [OS](devops/_index.md)
         - [linux](devops/os/linux.md)
 
-- 技术人生
+- 职场和面试
     - [面试](work/interview/_index.md)
     - [职场](work/workplace/_index.md)
 
