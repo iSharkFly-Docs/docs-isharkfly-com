@@ -9,11 +9,8 @@
         - [语言基础](programming-language/java/fundamentals/_README.md)
     - Mumps
         - [核心编程](programming-language/java/core/_README.md)
-
-- 框架
-    - [Spring](framework/spring/_README.md)
-
 - 库和技术栈
+    - [Spring](framework/spring/_README.md)
     - [FHIR](tech-stack/fhir.md)
     - [JWT](tech-stack/jwt/README.md)
     - [MessagePack](tech-stack/message-pack/index.md)
@@ -32,11 +29,11 @@
 - DevOps
     - [OS](devops/_index.md)
         - [linux](devops/os/linux.md)
-
 - 职场和面试
     - [面试](work/interview/_index.md)
     - [职场](work/workplace/_index.md)
-
+- 短文
+    - [西行漫记](article/journey-west/_index.md)
 
 - 快速导航
     - [WWW.CWIKI.US](https://www.cwiki.us/)
