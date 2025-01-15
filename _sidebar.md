@@ -33,7 +33,7 @@
     - [面试](work/interview/_index.md)
     - [职场](work/workplace/_index.md)
 - 短文
-    - [西行漫记](article/journey-west/_index.md)
+    - [美游漫记](article/journey-west/_index.md)
 
 - 快速导航
     - [WWW.CWIKI.US](https://www.cwiki.us/)
