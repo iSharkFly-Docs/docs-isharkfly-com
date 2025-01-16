@@ -1,3 +1,5 @@
+- 2025
+  - [麓山行](/article/journey/2025/trip-to-lushan.md)
 - 2024
-  - [探索新罕布什尔州宜居小城基恩](/article/journey-west/2024/trip-to-keene.md)
-  - [我眼中的美国大选 2024](/article/journey-west/2024/my-eyes-on-the-us-election-2024.md)
+  - [探索新罕布什尔州宜居小城基恩](/article/journey/2024/trip-to-keene.md)
+  - [我眼中的美国大选 2024](/article/journey/2024/my-eyes-on-the-us-election-2024.md)
