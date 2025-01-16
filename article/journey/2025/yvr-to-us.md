@@ -15,7 +15,7 @@
 
 ![](https://cdn.isharkfly.com/com-isharkfly-www/discourse-uploads/optimized/3X/c/a/ca8e289668f6b4ee3941a81d7066446a2859cefb_2_690x360.jpeg)
 
-最后会遇到一个自动扶梯，在自动扶梯的尽头回要求刷护照和联程航班的登机牌。
+最后会遇到一个自动扶梯，在自动扶梯的尽头会要求刷护照和联程航班的登机牌。
 
 如果联程航班没给你登机牌的话，就需要找工作人员把你的登机牌打印出来。
 
