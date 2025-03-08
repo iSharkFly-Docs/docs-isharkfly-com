@@ -1,6 +1,7 @@
 # 漫记
 
 ### 2025
+- [忆罗德康伯伯](/article/journey/2025/luodekan.md)
 - [温哥华（YVR）联程中转美国](/article/journey/2025/yvr-to-us.md)
 - [麓山行](/article/journey/2025/trip-to-lushan.md)
 
