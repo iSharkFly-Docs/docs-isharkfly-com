@@ -6,4 +6,6 @@
 |--------------------|-----------------------------------------------------------|-----------------------------------------|
 | Ubuntu 安装 MariaDB  | https://www.isharkfly.com/t/ubuntu-raspbian-mariadb/15339 | Ubuntu 安装 MariaDB 的方法和步骤                |
 | MariaDB 数据库远程连接被拒绝 | https://www.isharkfly.com/t/mysql-error-2003-hy000/7744   | 问题多出现在 MariaDB starting with 10.11 版本以后 |
+| MariaDB 数据库完整备份和恢复 | https://www.isharkfly.com/t/mysql-mariadb-gzip/7764       | 完整的对 MariaDB 数据库进行备份和恢复                 |
+
 
