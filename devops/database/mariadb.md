@@ -9,6 +9,3 @@
 | MariaDB 数据库配置运允许的最大连接数 | https://www.isharkfly.com/t/mysql-max-connections/17042/2 | 默认使用的 100 连接参数可能不够，需要在这里进行扩大            |
 | MariaDB 数据库完整备份和恢复     | https://www.isharkfly.com/t/mysql-mariadb-gzip/7764       | 完整的对 MariaDB 数据库进行备份和恢复                 |
 
-
-
-
