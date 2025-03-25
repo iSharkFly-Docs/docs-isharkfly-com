@@ -12,7 +12,7 @@ Java 的配置比较复杂，同时还有比较复杂的编译和集成工具，
 ### 安装
 任何语言或者程序在使用之前都需要先配置环境，在这个页面我们主要对 Java 环境配置的内容进行总结。
 
-- [Windows 环境下安装 Oracle JDK](https://www.ossez.com/t/windows-oracle-jdk/7254)
+- [Windows 环境下安装 Oracle JDK](https://www.isharkfly.com/t/windows-oracle-jdk/7254)
 
 ## 配置环境
 * [Java 在 Windows 10 中配置环境变量](https://www.ossez.com/t/java-windows-10/13675)
