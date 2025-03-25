@@ -1,2 +1,2 @@
 - [MariaDB/MySQL](/devops/database/mariadb.md)
-- PostgreSQL
+- [PostgreSQL](/devops/database/postgresql.md)
