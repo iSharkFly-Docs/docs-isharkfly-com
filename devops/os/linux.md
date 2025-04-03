@@ -9,3 +9,4 @@
 | Linux 设置主机名            | https://www.isharkfly.com/t/ubuntu/16970         | https://www.isharkfly.com/t/linux/15230        |
 | Linux 安装 httpd 服务器     |                                                  | https://www.isharkfly.com/t/linux-httpd/15231  |
 | Linux 中安装 nginx        | https://www.isharkfly.com/t/ubuntu-nginx/16722/2 | https://www.isharkfly.com/t/linux-nginx/13951  |
+| Linux 中安装 防火墙          | https://www.isharkfly.com/t/ubuntu/13527         |                                                |
