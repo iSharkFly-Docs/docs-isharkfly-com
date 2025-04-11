@@ -50,6 +50,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 ]
             },
             {
+                text: 'DevOps',
+                collapsed: true,
+                link: '/dev-ops/',
+                items: [
+                    {text: 'OS', link: '/dev-ops/os/linux'},
+                    {text: '数据库', link: '/dev-ops/database/',
+                        items: [
+                            {text: 'PostgreSQL', link: '/dev-ops/database/postgresql.md'},
+                            {text: 'MariaDB/MySQL', link: '/dev-ops/database/mariadb.md'},
+                            ]
+                    }
+
+                ]
+            },
+            {
                 text: '面试和职场',
                 collapsed: true,
                 items: [
