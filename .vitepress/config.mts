@@ -26,7 +26,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         ],
         footer: {
             message: '基于 MIT 许可发布',
-            copyright: `版权所有 © 2019-${new Date().getFullYear()} iSharkFly.COm`
+            copyright: `版权所有 © 2025-${new Date().getFullYear()} iSharkFly.COm`
         },
         sidebar: [
             {
