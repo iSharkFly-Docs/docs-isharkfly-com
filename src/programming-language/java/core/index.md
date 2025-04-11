@@ -1,0 +1,15 @@
+# Java 核心编程
+
+<!--@include: core-java-8.md -->
+
+<!--@include: core-java-11.md -->
+
+<!--@include: core-java-annotations.md -->
+
+<!--@include: core-java-numbers.md-->
+
+<!--@include: core-java-strings.md-->
+
+<!--@include: core-java-uuid.md-->
+
+[](core-java-uuid.md ':include')
