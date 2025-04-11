@@ -3,7 +3,7 @@ import {defineConfig} from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     srcDir: './src',
-    lang: 'zh-CN',
+    lang: 'zh-Hans',
     title: "iSharkFly 文档和手册",
     description: "iSharkFly - Docs",
     head: [
@@ -17,13 +17,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-W3NL9V');`
         ]
     ],
+
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             {text: '主页', link: '/'},
             {text: 'iSharkFly', link: 'https://www.isharkfly.com'}
         ],
-
+        footer: {
+            message: '基于 MIT 许可发布',
+            copyright: `版权所有 © 2019-${new Date().getFullYear()} iSharkFly.COm`
+        },
         sidebar: [
             {
                 text: '计算机相关技术',
