@@ -4,15 +4,18 @@ layout: home
 
 hero:
   name: "iSharkFly 文档和手册"
-  text: "欢迎来到鲨鱼君的文档和手册的空间"
-  tagline: My great project tagline
+  text: "Docs"
+  tagline: 欢迎来到鲨鱼君的文档和手册的空间
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 程序语言
+      link: /programming-language/index
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 库和技术栈++
+      link: /framework
+    - theme: alt
+      text: 产品应用
+      link: /product
 
 features:
   - title: Feature A

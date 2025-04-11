@@ -1,4 +1,5 @@
-## 概述
+## Java UUID
+
 在本文中，我们将会 对 UUIDs 和基于时间的 UUIDs（time-based UUIDs） 进行一些探讨。
 
 当我们在对基于时间的 UUIDs 进行选择的时候，总会遇到一些好的方面和不好的方面，如何进行选择，也是我们将要简要探讨的内容。
@@ -208,3 +209,11 @@ JDK 中的 `UUID.randomUUID()` 方法生成的是 UUIDv4 的方法。
 ---
 https://www.isharkfly.com/t/uuid/15686
 
+
+
+- [UUID 的 5 个版本](https://www.isharkfly.com/t/uuid-5/15098)
+- [在 Java 中生成只有数组和字母的 UUID](https://www.isharkfly.com/t/java-uuid/15097)
+- [Guide to UUID in Java](http://www.baeldung.com/java-uuid)
+- [Validate UUID String in Java](https://www.baeldung.com/java-validate-uuid-string)
+- [Generate the Same UUID From a String in Java](https://www.baeldung.com/java-generate-same-uuid-from-string)
+- [Generating Time Based UUIDs](https://www.baeldung.com/java-generating-time-based-uuids)
