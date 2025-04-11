@@ -9,4 +9,3 @@
 - [Controlling Bean Creation Order with @DependsOn Annotation](https://www.baeldung.com/spring-depends-on)
 - [Unsatisfied Dependency in Spring](https://www.baeldung.com/spring-unsatisfied-dependency)
 - [XML-Based Injection in Spring](https://www.baeldung.com/spring-xml-injection)
-- More articles: [[next -->]](../spring-di-2)

@@ -9,4 +9,3 @@
 - [Prevent ApplicationRunner or CommandLineRunner Beans From Executing During Junit Testing](https://www.baeldung.com/spring-junit-prevent-runner-beans-testing-execution)
 - [Testing in Spring Boot](https://www.baeldung.com/spring-boot-testing)
 - [解决在 Spring Boot 中运行 JUnit 测试遇到的 NoSuchMethodError 错误](https://www.ossez.com/t/spring-boot-junit-nosuchmethoderror/14066)
-- More articles: [[more -->]](../spring-boot-testing-2)
