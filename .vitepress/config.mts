@@ -50,6 +50,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 ]
             },
             {
+                text: '框架和库',
+                collapsed: true,
+                link: '/framework/',
+                items: [
+                    {
+                        text: 'Spring',
+                        collapsed: true,
+                        items: [
+                            {
+                                text: 'Java', link: '/programming-language/java/', collapsed: true,
+                                items: [
+                                    {text: '核心编程', link: '/programming-language/java/core/'},
+
+                                ]
+                            },
+                            {text: 'Python', link: '/programming-language/python/'},
+                            {text: 'Mumps', link: '/programming-language/mumps/'}
+                        ]
+                    },
+                    {
+                        text: 'Node',
+                        collapsed: true,
+                        items: [
+                            { text: 'Yarn', link: '/framework/node/yarn', collapsed: true, },
+                        ]
+                    },
+                ]
+            },
+            {
                 text: 'DevOps',
                 collapsed: true,
                 link: '/dev-ops/',
