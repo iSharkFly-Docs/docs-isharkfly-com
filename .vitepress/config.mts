@@ -2,7 +2,7 @@ import {defineConfig} from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    srcDir: './src',
+    srcDir: './docs',
     lang: 'zh-Hans',
     title: "iSharkFly 文档和手册",
     description: "iSharkFly - Docs",
