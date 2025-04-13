@@ -11,7 +11,7 @@ hero:
       text: 程序语言
       link: /programming-language/index
     - theme: alt
-      text: 库和技术栈
+      text: 框架和库
       link: /framework
     - theme: alt
       text: 产品应用
