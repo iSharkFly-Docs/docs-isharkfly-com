@@ -9,7 +9,7 @@ GitHub 上有关 HoneyMoose
 
 ## 如何运行文档
 
-本文档是通过 docsify 进行编译和安装的。
+本文档是通过 VitePress 进行编译和安装的。
 
 ### 安装 docsify
 
@@ -24,18 +24,23 @@ docsify-cli version:
   4.4.3
 ```
 
-### 运行 docsify
+### 运行 文档
 
-如果你希望在你的本地计算机上查看本文档，请运行  `docsify serve ./` ， 在你的控制台上将会有下面的内如输出：
+如果你希望在你的本地计算机上查看本文档，请运行  `yarn docs:dev` ， 在你的控制台上将会有下面的内如输出：
 
-```text
-PS C:\WorkDir\Repository\Cwikius-Docs\cwikius-docs> docsify serve ./
+```powershell
+PS D:\WorkDir\Repository\iSharkfly-Docs\Docs\docs-isharkfly-com> yarn docs:dev  
+Re-optimizing dependencies because vite config has changed
 
-Serving C:\WorkDir\Repository\Cwikius-Docs\cwikius-docs now.
-Listening at http://localhost:3000
+  vitepress v1.6.3
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h to show help
+
 ```
 
-## CWIKIUS 文档和手册快速导航
+## iSharkFly 文档和手册快速导航
 
 在下面的表格中，我们列出了一些比较有用的 CWIKIUS 相关软件开发使用教程的导航，在我们文档的整理中，也参考了一些这些文档。
 
