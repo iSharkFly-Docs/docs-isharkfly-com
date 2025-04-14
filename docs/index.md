@@ -27,7 +27,7 @@ hero:
       link: /dev-ops/
     - theme: alt
       text: 职场和面试
-      link: /product
+      link: /work
     - theme: alt
       text: 短文
       link: /product

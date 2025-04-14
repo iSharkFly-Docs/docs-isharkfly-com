@@ -96,6 +96,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             {
                 text: '面试和职场',
                 collapsed: true,
+                link: '/work/',
                 items: [
                     {text: '面试', link: '/work/interview/'},
                     {text: '职场', link: '/work/workplace/'}
