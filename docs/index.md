@@ -38,9 +38,8 @@ features:
   - title: 构建框架
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: 快速导航
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing [elit](/links)
+    details: 针对不同内容的网站，请参考本页面底部的快速导航链接。
 ---
 
 ---
-
 <!--@include: CONTACT.md -->
