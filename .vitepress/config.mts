@@ -89,7 +89,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             {text: 'PostgreSQL', link: '/dev-ops/database/postgresql.md'},
                             {text: 'MariaDB/MySQL', link: '/dev-ops/database/mariadb.md'},
                             ]
-                    }
+                    },
+                    {text: 'Docker', link: '/dev-ops/container/docker.md'},
 
                 ]
             },
@@ -101,6 +102,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     {text: '面试', link: '/work/interview/'},
                     {text: '职场', link: '/work/workplace/'}
 
+                ]
+            },
+            {
+                text: '短文',
+                collapsed: true,
+                link: '/article/',
+                items: [
+                    {text: '星途漫记', link: '/article/journey/'}
                 ]
             }
         ],

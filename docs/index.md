@@ -30,7 +30,7 @@ hero:
       link: /work
     - theme: alt
       text: 短文
-      link: /product
+      link: /article
       
 features:
   - title: iSharkFly 文档项目
