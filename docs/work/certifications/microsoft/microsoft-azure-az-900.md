@@ -4,7 +4,7 @@ Microsoft Certified: Azure Fundamentals，代号为AZ900，是Azure的初级认�
 
 ## 概念和定义
 
-* [resource tags](https://www.isharkfly.com/t/azure-resource-tags/17796)
+* [Resource Tags](https://www.isharkfly.com/t/azure-resource-tags/17796)
 * [Azure Role-Based Access Control (RBAC)](https://www.isharkfly.com/t/azure-role-based-access-control-rbac/17797)
 * [Azure Policy](https://www.isharkfly.com/t/azure-policy/17798)
 * [Azure Defense in Depth](https://www.isharkfly.com/t/azure-defense-in-depth/17799)
