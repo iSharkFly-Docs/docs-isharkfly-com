@@ -10,3 +10,4 @@ Microsoft Certified: Azure Fundamentals，代号为AZ900，是Azure的初级认�
 * [Azure Defense in Depth](https://www.isharkfly.com/t/azure-defense-in-depth/17799)
 * [Azure Cognitive Services](https://www.isharkfly.com/t/azure-cognitive-services/17800)
 * [Azure Service Endpoints](https://www.isharkfly.com/t/azure-service-endpoints/17801)
+* 
