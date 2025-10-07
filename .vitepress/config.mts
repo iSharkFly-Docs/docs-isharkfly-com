@@ -100,8 +100,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 link: '/work/',
                 items: [
                     {text: '面试', link: '/work/interview/'},
-                    {text: '职场', link: '/work/workplace/'}
-
+                    {text: '职场', link: '/work/workplace/'},
+                    {text: '认证', link: '/work/certifications/'}
                 ]
             },
             {
