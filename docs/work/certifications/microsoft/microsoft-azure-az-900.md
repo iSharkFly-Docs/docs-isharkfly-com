@@ -43,3 +43,6 @@ AZ-900 的考试比较简单，但也绝对不是简单到什么都不看，随�
 * [Azure Service Bus](https://www.isharkfly.com/t/azure-service-bus/17821)
 * [Azure Event Grid](https://www.isharkfly.com/t/azure-event-grid/17820)
 * [Azure Service Bus 与 Event Grid 对比](https://www.isharkfly.com/t/azure-service-bus-event-grid/17822)
+* [Azure App Insights](https://www.isharkfly.com/t/untitled-ai-bot-pm/17823)
+* [Azure Microsoft Sentinel](https://www.isharkfly.com/t/untitled-ai-bot-pm/17824)
+* [Azure Microsoft Defender for Cloud](https://www.isharkfly.com/t/untitled-ai-bot-pm/17825)
