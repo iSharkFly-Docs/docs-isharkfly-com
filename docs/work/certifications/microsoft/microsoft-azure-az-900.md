@@ -50,3 +50,8 @@ AZ-900 的考试比较简单，但也绝对不是简单到什么都不看，随�
 * [Azure Point-to-Site VPN](https://www.isharkfly.com/t/untitled-ai-bot-pm/17830)
 
 ## 题库
+
+当概念差不多说完了的时候就需要开始刷题。
+
+当下考试大概有 500 个题目左右。
+
