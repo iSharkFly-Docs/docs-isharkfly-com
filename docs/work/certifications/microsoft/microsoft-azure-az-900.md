@@ -46,3 +46,7 @@ AZ-900 的考试比较简单，但也绝对不是简单到什么都不看，随�
 * [Azure App Insights](https://www.isharkfly.com/t/untitled-ai-bot-pm/17823)
 * [Azure Microsoft Sentinel](https://www.isharkfly.com/t/untitled-ai-bot-pm/17824)
 * [Azure Microsoft Defender for Cloud](https://www.isharkfly.com/t/untitled-ai-bot-pm/17825)
+* [Azure Site-to-Site VPN](https://www.isharkfly.com/t/untitled-ai-bot-pm/17827)
+* [Azure Point-to-Site VPN](https://www.isharkfly.com/t/untitled-ai-bot-pm/17830)
+
+## 题库
