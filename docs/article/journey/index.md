@@ -5,7 +5,7 @@
 - [Exeter 小城](https://www.isharkfly.com/t/exeter/18431)
 - [20 年前站台盒饭](https://www.isharkfly.com/t/topic/18169)
 - [东北美国加拿大周游记](/article/journey/2025/northeast-travel.md)
-- [忆罗德康伯伯](/article/journey/2025/luodekan.md)
+- [忆罗德康伯伯](https://www.isharkfly.com/t/topic/17012)
 - [温哥华（YVR）联程中转美国](/article/journey/2025/yvr-to-us.md)
 - [麓山行](https://www.isharkfly.com/t/topic/16805)
 
