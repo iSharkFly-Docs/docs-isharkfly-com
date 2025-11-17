@@ -10,5 +10,5 @@
 - [麓山行](https://www.isharkfly.com/t/topic/16805)
 
 ### 2024
-- [探索新罕布什尔州宜居小城基恩](/article/journey/2024/trip-to-keene.md)
+- [探索新罕布什尔州宜居小城基恩](https://www.isharkfly.com/t/topic/16618)
 - [我眼中的美国大选 2024](/article/journey/2024/my-eyes-on-the-us-election-2024.md)
