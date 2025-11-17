@@ -1,6 +1,8 @@
 # 漫记
 
 ### 2025
+- [在大学教书经历过的中美印学生](https://www.isharkfly.com/t/topic/18441)
+- [Exeter 小城](https://www.isharkfly.com/t/exeter/18431)
 - [东北美国加拿大周游记](/article/journey/2025/northeast-travel.md)
 - [忆罗德康伯伯](/article/journey/2025/luodekan.md)
 - [温哥华（YVR）联程中转美国](/article/journey/2025/yvr-to-us.md)
