@@ -52,6 +52,12 @@ AZ-900 的考试比较简单，但也绝对不是简单到什么都不看，随�
 * [Azure Microsoft Defender for Cloud](https://www.isharkfly.com/t/untitled-ai-bot-pm/17825)
 * [Azure Site-to-Site VPN](https://www.isharkfly.com/t/untitled-ai-bot-pm/17827)
 * [Azure Point-to-Site VPN](https://www.isharkfly.com/t/untitled-ai-bot-pm/17830)
+* [Azure Data Lake](https://www.isharkfly.com/t/untitled-ai-bot-pm/17849)
+* [Azure Data Lake Analytics](https://www.isharkfly.com/t/untitled-ai-bot-pm/17850)
+* [Azure Databricks](https://www.isharkfly.com/t/untitled-ai-bot-pm/17850)
+* [Azure Synapse Analytics](https://www.isharkfly.com/t/untitled-ai-bot-pm/17852)
+* [Azure SLA](https://www.isharkfly.com/t/azure-sla/17853)
+* [Azure Network Security Group](https://www.isharkfly.com/t/untitled-ai-bot-pm/17854)
 
 ## 题库
 
