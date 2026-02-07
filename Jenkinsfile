@@ -43,7 +43,7 @@ pipeline {
 
 		stage('Build / Package') {
 		    steps {
-		        sh 'yarn install'
+		        sh 'yarn add -D wrangler@latest'
 		        sh 'yarn docs:build'
 		    }
 		}
