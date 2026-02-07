@@ -11,7 +11,7 @@ GitHub 上有关 HoneyMoose
 
 本文档是通过 VitePress 进行编译和安装的。
 
-### 安装 docsify
+### 安装 vitepress
 
 如果你的计算机还没有安装 docsify 的话，请运行命令  `npm i docsify-cli -g` 来进行安装。
 
