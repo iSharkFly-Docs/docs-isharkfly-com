@@ -43,7 +43,7 @@ pipeline {
 
 		stage('Build / Package') {
 		    steps {
-		        sh 'yarn add -D wrangler@latest'
+		        sh 'yarn install'
 		        sh 'yarn docs:build'
 		    }
 		}
@@ -51,7 +51,7 @@ pipeline {
 		stage('Deploy to Cloudflare') {
             steps {
                 // Install Wrangler locally for the project
-                sh 'yarn add wrangler --no-save'
+                sh 'yarn add -D wrangler@latest'
                 // Deploy
                 sh "yarn wrangler pages deploy ./.vitepress/dist --project-name=${PRJ_NAME} --branch=main"
             }
