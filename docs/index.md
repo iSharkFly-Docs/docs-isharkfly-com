@@ -30,7 +30,7 @@ hero:
       link: /work
     - theme: alt
       text: 短文
-      link: /article
+      link: /misc/essay
       
 features:
   - title: iSharkFly 文档项目
@@ -39,6 +39,7 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: 快速导航
     details: 针对不同内容的网站，请参考本页面底部的快速导航链接。
+    link: /navigation
 ---
 
 ---
