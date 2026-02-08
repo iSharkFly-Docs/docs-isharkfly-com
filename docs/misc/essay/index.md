@@ -6,9 +6,9 @@
 - [20 年前站台盒饭](https://www.isharkfly.com/t/topic/18169)
 - [东北美国加拿大周游记](/article/journey/2025/northeast-travel.md)
 - [忆罗德康伯伯](https://www.isharkfly.com/t/topic/17012)
-- [温哥华（YVR）联程中转美国](/article/journey/2025/yvr-to-us.md)
+- [温哥华（YVR）联程中转美国](./2025/yvr-to-us.md)
 - [麓山行](https://www.isharkfly.com/t/topic/16805)
 
 ### 2024
 - [探索新罕布什尔州宜居小城基恩](https://www.isharkfly.com/t/topic/16618)
-- [我眼中的美国大选 2024](/article/journey/2024/my-eyes-on-the-us-election-2024.md)
+- [我眼中的美国大选 2024](./2024/my-eyes-on-the-us-election-2024.md)
