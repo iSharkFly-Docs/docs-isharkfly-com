@@ -108,10 +108,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             {
                 text: '短文',
                 collapsed: true,
-                link: '/article/',
+                link: '/misc/essay',
                 items: [
                     {text: '星途漫记', link: '/article/journey/'}
                 ]
+            },
+            {
+                text: '站点导航',
+                collapsed: true,
+                link: '/navigation/'
             }
         ],
 
