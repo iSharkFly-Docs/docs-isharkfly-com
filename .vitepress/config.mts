@@ -44,6 +44,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 ]
                             },
                             {text: 'Python', link: '/programming-language/python/'},
+                            {text: 'TypeScript', link: '/programming-language/typescript/'},
                             {text: 'Mumps', link: '/programming-language/mumps/'}
                         ]
                     },
