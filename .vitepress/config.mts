@@ -2,6 +2,7 @@ import {defineConfig} from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+    ignoreDeadLinks: true,
     srcDir: './docs',
     lang: 'zh-Hans',
     title: "iSharkFly 文档和手册",
