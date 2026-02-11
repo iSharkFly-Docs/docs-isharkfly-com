@@ -16,6 +16,14 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-W3NL9V');`
+        ],
+        [
+            'script',
+            {
+                async: '',
+                src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4797644559430915',
+                crossorigin: 'anonymous'
+            }
         ]
     ],
 
@@ -45,6 +53,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 ]
                             },
                             {text: 'Python', link: '/programming-language/python/'},
+                            {text: 'TypeScript', link: '/programming-language/typescript/'},
                             {text: 'TypeScript', link: '/programming-language/typescript/'},
                             {text: 'Mumps', link: '/programming-language/mumps/'}
                         ]
