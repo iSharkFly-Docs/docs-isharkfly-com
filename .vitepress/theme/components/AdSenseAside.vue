@@ -11,7 +11,8 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
+import {onMounted} from 'vue'
+
 onMounted(() => {
   try {
     (window.adsbygoogle = window.adsbygoogle || []).push({})

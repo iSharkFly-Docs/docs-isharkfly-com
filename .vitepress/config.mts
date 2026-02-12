@@ -84,7 +84,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         text: 'Node',
                         collapsed: true,
                         items: [
-                            { text: 'Yarn', link: '/framework/node/yarn', collapsed: true, },
+                            {text: 'Yarn', link: '/framework/node/yarn', collapsed: true,},
                         ]
                     },
                 ]
@@ -95,11 +95,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 link: '/dev-ops/',
                 items: [
                     {text: 'OS', link: '/dev-ops/os/linux'},
-                    {text: '数据库', link: '/dev-ops/database/',
+                    {
+                        text: '数据库', link: '/dev-ops/database/',
                         items: [
                             {text: 'PostgreSQL', link: '/dev-ops/database/postgresql.md'},
                             {text: 'MariaDB/MySQL', link: '/dev-ops/database/mariadb.md'},
-                            ]
+                        ]
                     },
                     {text: 'Docker', link: '/dev-ops/container/docker.md'},
 
