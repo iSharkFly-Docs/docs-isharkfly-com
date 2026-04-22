@@ -33,27 +33,36 @@ pipeline {
     }
 
      stages {
-// 	    stage("Pull Source Code"){
-// 			steps {
+	    stage("Configure"){
+			steps {
+			    script {
+			        // This command should run on the agent to configure the git environment
+			        sh 'git config --global url."https://github.com/".insteadOf git://github.com/'
+
+			        sh 'corepack enable'
+
+			        sh 'corepack prepare pnpm@latest --activate'
+			    }
 // 			    git branch: 'main',
 // 			        credentialsId: 'c9d0ec7c-0749-4588-8960-e96cab84d462',
-// 			        url: 'https://src.isharkfly.com/iSharkFly-Docs/health-docs.git'
-// 			}
-// 		}
+// 			        url: 'https://src.isharkfly.com/USVisaTrack/Usvisatrack-Ui.git'
+			}
+		}
 
 		stage('Build / Package') {
 		    steps {
-		        sh 'yarn add'
-		        sh 'yarn docs:build'
+		        sh 'pnpm install --frozen-lockfile'
+		        sh 'npx browserslist@latest --update-db'
+		        sh 'pnpm run docs:build'
 		    }
 		}
 
 		stage('Deploy to Cloudflare') {
             steps {
                 // Install Wrangler locally for the project
-                sh 'yarn add -D wrangler@latest'
+                sh 'pnpm add -D wrangler@latest'
                 // Deploy
-                sh "yarn wrangler pages deploy ./.vitepress/dist --project-name=${PRJ_NAME} --branch=main"
+                sh "pnpm  wrangler pages deploy ./.vitepress/dist --project-name=${PRJ_NAME} --branch=main"
             }
         }
 
