@@ -1,5 +1,10 @@
 # 星途漫记
 
+### 2026
+- [逐步被交通边缘和空心化的 —— 诸葛庙村](https://www.isharkfly.com/t/topic/12963)
+- [2026 年科技和互联网行业开年即混乱](https://www.isharkfly.com/t/topic/9812)
+- [Apple 何去何从](https://www.isharkfly.com/t/apple/9809)
+
 ### 2025
 - [在大学教书经历过的中美印学生](https://www.isharkfly.com/t/topic/18441)
 - [Exeter 小城](https://www.isharkfly.com/t/exeter/18431)
