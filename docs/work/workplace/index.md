@@ -11,9 +11,10 @@ https://www.isharkfly.com/c/life-work/38-category/38
 
 
 ## 热点文章
-
+- 2026
+    - [宁愿相信母猪会上树，都不要相信老板画的饼](https://www.isharkfly.com/t/topic/10387)
 - 2023
-    - [公司大规模裁员的时间轴](/work/workplace/2023/timeline-for-layoff.md)
+    - [公司大规模裁员的时间轴](/work/workplace/2023/14472)
     - [公司裁员日常的骚操作和警告](/work/workplace/2023/daily-operation-layoff.md)
     - [上一年工作中猫腻的总结](/work/workplace/2023/last-year-workplace-issues.md)
     - [北美 2023 被裁员的感悟](/work/workplace/2023/north-america-2023-layoff.md)
