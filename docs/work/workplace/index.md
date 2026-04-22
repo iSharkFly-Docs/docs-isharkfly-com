@@ -12,7 +12,7 @@ https://www.isharkfly.com/c/life-work/38-category/38
 
 ## 热点文章
 - 2026
-    - [宁愿相信母猪会上树，都不要相信老板画的饼](https://www.isharkfly.com/t/topic/10387)
+    - [宁愿相信母猪会上树，都不要相信老板画的饼](/work/workplace/2026/10387)
 - 2023
     - [公司大规模裁员的时间轴](/work/workplace/2023/14472)
     - [公司裁员日常的骚操作和警告](/work/workplace/2023/daily-operation-layoff.md)
