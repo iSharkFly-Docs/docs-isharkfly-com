@@ -2,7 +2,7 @@
 
 ### 2026
 - [逐步被交通边缘和空心化的 —— 诸葛庙村](./2026/12963-zhuge-temple-village.md)
-- [2026 年科技和互联网行业开年即混乱](https://www.isharkfly.com/t/topic/9812)
+- [2026 年科技和互联网行业开年即混乱](./2026/9812-2026-technology-and-internet.md)
 - [Apple 何去何从](https://www.isharkfly.com/t/apple/9809)
 
 ### 2025
