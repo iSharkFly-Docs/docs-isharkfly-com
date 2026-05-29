@@ -51,6 +51,7 @@ pipeline {
 
 		stage('Build / Package') {
 		    steps {
+		        sh 'pnpm approve-builds'
 		        sh 'pnpm install --frozen-lockfile'
 		        sh 'npx browserslist@latest --update-db'
 		        sh 'pnpm run docs:build'
