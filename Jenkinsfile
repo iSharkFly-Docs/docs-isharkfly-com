@@ -37,11 +37,9 @@ pipeline {
 			steps {
 			    script {
 			        // This command should run on the agent to configure the git environment
-			        sh 'git config --global url."https://github.com/".insteadOf git://github.com/'
-
-			        sh 'corepack enable'
-
-			        sh 'corepack prepare pnpm@latest --activate'
+                    sh 'git config --global url."https://github.com/".insteadOf git://github.com/'
+                    sh 'corepack enable'
+                    sh 'corepack prepare pnpm@latest --activate'
 			    }
 // 			    git branch: 'main',
 // 			        credentialsId: 'c9d0ec7c-0749-4588-8960-e96cab84d462',
@@ -49,21 +47,35 @@ pipeline {
 			}
 		}
 
+        stage("Install") {
+            steps {
+                sh '''
+                    pnpm clean --lockfile
+                    pnpm install --no-frozen-lockfile || true
+                    pnpm approve-builds --all
+                    pnpm install --no-frozen-lockfile
+                '''
+            }
+        }
+
 		stage('Build / Package') {
 		    steps {
-		        sh 'pnpm approve-builds --all'
-		        sh 'pnpm install --frozen-lockfile'
-		        sh 'npx browserslist@latest --update-db'
-		        sh 'pnpm run docs:build'
+                sh '''
+                    npx browserslist@latest --update-db
+                    npm run docs:build
+                '''
 		    }
 		}
 
-		stage('Deploy to Cloudflare') {
+        stage('Deploy to Cloudflare') {
             steps {
-                // Install Wrangler locally for the project
-                sh 'pnpm add -D wrangler@latest'
-                // Deploy
-                sh "pnpm  wrangler pages deploy ./.vitepress/dist --project-name=${PRJ_NAME} --branch=main"
+                script {
+                    def branchArg = env.CHANGE_ID
+                        ? "--branch=pr-${env.CHANGE_ID}"
+                        : "--branch=${env.BRANCH_NAME}"
+
+                    sh "pnpm wrangler pages deploy ./.vitepress/dist --project-name=${PRJ_NAME} ${branchArg}"
+                }
             }
         }
 
