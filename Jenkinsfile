@@ -67,12 +67,15 @@ pipeline {
 		    }
 		}
 
-		stage('Deploy to Cloudflare') {
+        stage('Deploy to Cloudflare') {
             steps {
-                // Install Wrangler locally for the project
-                sh 'pnpm add -D wrangler@latest'
-                // Deploy
-                sh "pnpm  wrangler pages deploy ./.vitepress/dist --project-name=${PRJ_NAME} --branch=main"
+                script {
+                    def branchArg = env.CHANGE_ID
+                        ? "--branch=pr-${env.CHANGE_ID}"
+                        : "--branch=${env.BRANCH_NAME}"
+
+                    sh "pnpm wrangler pages deploy ./dist --project-name=${PRJ_NAME} ${branchArg}"
+                }
             }
         }
 
