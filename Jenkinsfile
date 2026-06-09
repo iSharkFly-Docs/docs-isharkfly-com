@@ -74,7 +74,7 @@ pipeline {
                         ? "--branch=pr-${env.CHANGE_ID}"
                         : "--branch=${env.BRANCH_NAME}"
 
-                    sh "pnpm wrangler pages deploy ./dist --project-name=${PRJ_NAME} ${branchArg}"
+                    sh "pnpm wrangler pages deploy ./.vitepress/dist --project-name=${PRJ_NAME} ${branchArg}"
                 }
             }
         }
