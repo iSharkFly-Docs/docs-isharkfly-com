@@ -37,19 +37,19 @@
 
 百家渡位于诸葛庙村下方，旧名百家渡，也是诸葛庙渡，曾是零陵至道县的陆水陆交通必经之地。
 
-![2026-04-22_12-00-30|690x481](upload://w9iX0KDMgBgQGQz7DXmN1PLJKnw.jpeg)
+![2026-04-22_12-00-30|690x481](https://cdn.isharkfly.com/com-isharkfly-www/discourse-uploads/optimized/3X/e/1/e152db7859b5525d6723553db2a63680121d7a52_2_690x481.jpeg)
 
 文豪在此留下诗作，最著名的是苏轼的《百家渡》（“百家渡西日欲落，青山上下猿鸟乐”），以及杨万里的《过百家渡四绝句》。
 
 百家渡遗址和石涧遗址已被列为区域级文物保护单位，但因年代久远损毁较为严重。
 
-![2026-04-22_12-00-07|690x488](upload://q2blusgER9aTNqIlxu52CsxNi4B.jpeg)
+![2026-04-22_12-00-07|690x488](https://cdn.isharkfly.com/com-isharkfly-www/discourse-uploads/optimized/3X/b/6/b677b21e2deae4f4048cf2bbf00b335182fe14ed_2_690x488.jpeg)
 
 截至2025年，诸葛庙村面积 2.12 平方千米，人口 338 户 821 人。
 
 诸葛庙村濒临潇水，在南津渡大桥建成前，主要依靠 “百家渡” 渡口码头出行。
 
-![2026-04-22_12-00-53|690x462](upload://eYztBWUHN6ZgYQu476VWldhVt0y.jpeg)
+![2026-04-22_12-00-53|690x462](https://cdn.isharkfly.com/com-isharkfly-www/discourse-uploads/optimized/3X/6/8/68f74ac12a1b1f360f2abf593c4ff4fd3353597e_2_690x462.jpeg)
 
 因道路和交通条件的改变，诸葛庙村人们的出行方式又发生了根本性的变化。
 
