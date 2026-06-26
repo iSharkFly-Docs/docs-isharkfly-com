@@ -13,6 +13,7 @@
 - [东北美国加拿大周游记](/article/journey/2025/northeast-travel.md)
 - [忆罗德康伯伯](https://www.isharkfly.com/t/topic/17012)
 - [温哥华（YVR）联程中转美国](./2025/yvr-to-us.md)
+- [古村落里觅乡愁](./2025/dream-in-ancient-villages.md)
 - [麓山行](https://www.isharkfly.com/t/topic/16805)
 
 ### 2024

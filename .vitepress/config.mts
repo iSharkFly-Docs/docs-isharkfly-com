@@ -54,7 +54,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             },
                             {text: 'Python', link: '/programming-language/python/'},
                             {text: 'TypeScript', link: '/programming-language/typescript/'},
-                            {text: 'TypeScript', link: '/programming-language/typescript/'},
                             {text: 'Mumps', link: '/programming-language/mumps/'}
                         ]
                     },
@@ -117,11 +116,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 ]
             },
             {
-                text: '短文',
+                text: '人文随笔',
                 collapsed: true,
-                link: '/misc/essay',
+                link: '/misc/',
                 items: [
-                    {text: '星途漫记', link: '/article/journey/'}
+                    {text: '人文', link: '/misc/culture/',
+                        items: [
+                            {text: '湘南地区村落', link: '/misc/culture/yong-zhou'}
+                        ]
+                    },
+                    {text: '随笔', link: '/misc/essay/'}
                 ]
             },
             {
