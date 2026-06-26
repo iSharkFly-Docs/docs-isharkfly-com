@@ -2,6 +2,7 @@
 
 ### 2026
 - [纽约领事馆旅行证办下来要 30 多 天](./2026/2969-china-embassy-new-york.md)
+- [2026 年高考作文——你会选那个词](./2026/18795-2026-chinese-essay.md)
 - [Ellie Schiller Homosassa Springs Wildlife State Park](./2026/18783-homosassa-springs-wildlife-state-park.md)
 - [亚特兰蒂斯号航天飞机](./2026/13189-atlantis.md)
 - [逐步被交通边缘和空心化的 —— 诸葛庙村](./2026/12963-zhuge-temple-village.md)
