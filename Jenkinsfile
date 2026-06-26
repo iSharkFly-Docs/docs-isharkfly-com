@@ -72,7 +72,7 @@ pipeline {
                 script {
                     def branchArg = env.CHANGE_ID
                         ? "pr-${env.CHANGE_ID}"
-                        : "${env.BRANCH_NAME}"
+                        : ${env.BRANCH_NAME}.replaceAll('/', '-')
 
                     if (env.BRANCH_NAME == 'main') {
                         sh 'npx wrangler deploy'
