@@ -17,9 +17,6 @@ hero:
       text: 产品应用
       link: /product
     - theme: alt
-      text: 组织和基金会
-      link: /product
-    - theme: alt
       text: 数据结构和算法
       link: /product
     - theme: alt
@@ -28,6 +25,9 @@ hero:
     - theme: alt
       text: 职场和面试
       link: /work
+    - theme: alt
+      text: 人文
+      link: /misc/culture
     - theme: alt
       text: 短文
       link: /misc/essay
