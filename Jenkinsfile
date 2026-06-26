@@ -71,10 +71,14 @@ pipeline {
             steps {
                 script {
                     def branchArg = env.CHANGE_ID
-                        ? "--branch=pr-${env.CHANGE_ID}"
-                        : "--branch=${env.BRANCH_NAME}"
+                        ? "pr-${env.CHANGE_ID}"
+                        : "${env.BRANCH_NAME}"
 
-                    sh "pnpm wrangler pages deploy ./.vitepress/dist --project-name=${PRJ_NAME} ${branchArg}"
+                    if (env.BRANCH_NAME == 'main') {
+                        sh 'npx wrangler deploy'
+                    } else {
+                        sh "npx wrangler versions upload --preview-alias ${branchArg}"
+                    }
                 }
             }
         }
