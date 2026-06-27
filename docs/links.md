@@ -6,18 +6,18 @@
 | 名称及链接                                             | NOTE                      | 
 |---------------------------------------------------|---------------------------|
 | [DOCS.ISHARKFLY.COM](https://docs.isharkfly.com/) | 本手册的编译版本将会部署在这个链接上        |
-| [DOCS.CWIKIUS.CN](https://docs.cwikius.cn/)       | 湖湘人文                      |
 | [CN 博客](http://www.cwikius.cn/)                   | CWIKIUS.CN 一个有独立思考和温度的清新站 | 
 
 
 ### 前端和 UI
-| 名称及链接           | URL                                                                         | NOTE                        |
-|-----------------|-----------------------------------------------------------------------------|-----------------------------|
-| 前端技术社区          | https://www.ossez.com/c/toolkit-algorithm-computer-science/web-front-end/26 | 计算机相关的前端框架和讨论               |
-| TypeScript 文档手册 | https://typescript.ossez.com/                                               | TypeScript 相关技术文档和手册        |
-| Angular 技术手册    | https://angular.ossez.com/                                                  | Angular 手册的在线翻译版本，从源代码中进行编译 |
-| TypeScript 文档手册 | https://typescript.ossez.com/                                               | TypeScript 相关技术文档和手册        |
-| Docsify 中文文档手册  | https://docsify.isharkfly.com/                                              | Docsify 可以快速帮你生成文档网站        |
+
+| 网站名称            | URL                                                | NOTE                        |
+|-----------------|----------------------------------------------------|-----------------------------|
+| iSharkFly - 飞鲨  | https://www.isharkfly.com/c/software-development/5 | 计算机相关的前端框架和讨论               |
+| TypeScript 文档手册 | https://typescript.ossez.com/                      | TypeScript 相关技术文档和手册        |
+| Angular 技术手册    | https://angular.ossez.com/                         | Angular 手册的在线翻译版本，从源代码中进行编译 |
+| TypeScript 文档手册 | https://typescript.ossez.com/                      | TypeScript 相关技术文档和手册        |
+| Docsify 中文文档手册  | https://docsify.isharkfly.com/                     | Docsify 可以快速帮你生成文档网站        |
 
 ### 后端和数据
 
