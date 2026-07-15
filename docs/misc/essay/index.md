@@ -1,6 +1,7 @@
 # 星途漫记
 
 ### 2026
+- [Savers 美国社区常见的 Thrift store （ 二手店）](./2026/10062-thrift-store-in-us.md)
 - [T 字特快列车进一步被停运——青春留给了时间](./2026/2325-time-flies.md)
 - [打印机真的缺纸了吗——尝试不要拆穿孩子的小心机](./2026/2319-is-the-printer-really-out-of-pape.md)
 - [《抓特务》—— 反面宣发和京圈](./2026/2608-beijing-entertainment-circle.md)
