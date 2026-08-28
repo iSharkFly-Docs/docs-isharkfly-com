@@ -1,6 +1,7 @@
 # 星途漫记
 
 ### 2026
+- [最想吐槽的 26 度](./2026/10996-26-c.md)
 - [IBM 不要的 ThinkPad，幸亏给了联想](./2026/1755-ibm-thinkpad.md)
 - [感觉疯狂动物城说的小仓鼠就是自己](./2026/2980-zootopia-mice-is-me.md)
 - [Savers 美国社区常见的 Thrift store （ 二手店）](./2026/10062-thrift-store-in-us.md)
