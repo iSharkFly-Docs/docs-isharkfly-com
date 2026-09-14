@@ -54,6 +54,7 @@ pipeline {
                     pnpm install --no-frozen-lockfile || true
                     pnpm approve-builds --all
                     pnpm install --no-frozen-lockfile
+                    pnpm --version
                 '''
             }
         }
