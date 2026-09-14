@@ -38,9 +38,17 @@ pipeline {
 			    script {
 			        // This command should run on the agent to configure the git environment
                     sh 'git config --global url."https://github.com/".insteadOf git://github.com/'
-                    sh 'corepack enable'
-                    sh 'corepack prepare pnpm@12.4.1 --activate'
-                    sh 'pnpm --version'
+                    sh '''
+                        node --version
+                        corepack --version
+
+                        rm -rf "$HOME/.cache/node/corepack"
+
+                        corepack enable
+                        corepack prepare pnpm@12.4.1 --activate
+                        pnpm --version
+                    '''
+
 			    }
 // 			    git branch: 'main',
 // 			        credentialsId: 'c9d0ec7c-0749-4588-8960-e96cab84d462',
