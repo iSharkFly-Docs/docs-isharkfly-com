@@ -39,6 +39,7 @@ pipeline {
 			        // This command should run on the agent to configure the git environment
                     sh 'git config --global url."https://github.com/".insteadOf git://github.com/'
                     sh '''
+                        sudo npm install -g corepack@latest
                         node --version
                         corepack --version
 
