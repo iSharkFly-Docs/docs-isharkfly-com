@@ -40,7 +40,6 @@ pipeline {
                     sh 'git config --global url."https://github.com/".insteadOf git://github.com/'
                     sh '''
                         set -eu
-
                         corepack enable
                     '''
 
