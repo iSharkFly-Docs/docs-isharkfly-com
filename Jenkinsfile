@@ -38,8 +38,11 @@ pipeline {
 			    script {
 			        // This command should run on the agent to configure the git environment
                     sh 'git config --global url."https://github.com/".insteadOf git://github.com/'
-                    sh 'corepack enable'
-                    sh 'corepack prepare pnpm@latest --activate'
+                    sh '''
+                        set -eu
+                        corepack enable
+                    '''
+
 			    }
 // 			    git branch: 'main',
 // 			        credentialsId: 'c9d0ec7c-0749-4588-8960-e96cab84d462',
@@ -50,10 +53,9 @@ pipeline {
         stage("Install") {
             steps {
                 sh '''
-                    pnpm clean --lockfile
-                    pnpm install --no-frozen-lockfile || true
+                    rm -rf node_modules
+                    pnpm install --frozen-lockfile
                     pnpm approve-builds --all
-                    pnpm install --no-frozen-lockfile
                 '''
             }
         }
@@ -75,9 +77,9 @@ pipeline {
                         : env.BRANCH_NAME.replaceAll('/', '-')
 
                     if (env.BRANCH_NAME == 'main') {
-                        sh 'npx wrangler deploy'
+                        sh 'pnpm exec wrangler deploy'
                     } else {
-                        sh "npx wrangler versions upload --preview-alias ${branchArg}"
+                        sh "pnpm exec wrangler versions upload --preview-alias ${branchArg}"
                     }
                 }
             }
