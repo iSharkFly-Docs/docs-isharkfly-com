@@ -1,6 +1,7 @@
 # 星途漫记
 
 ### 2026
+- [左宗棠故居——柳庄：十年耕读，终成一代名臣](./2026/11012-zuo-zongtang-former-residence-liuzhuang-ten-years.md)
 - [看见颜料想起了自己学画的那几年](./2026/5275-memories_of_learning_to_paint.md)
 - [麓山南路](./2026/5234-lushan-south-road.md)
 - [从湘到苏](./2026/2994-xiang-to-su.md)
