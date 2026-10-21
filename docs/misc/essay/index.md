@@ -1,6 +1,7 @@
 # 星途漫记
 
 ### 2026
+- [湘军中的永州子弟](./2026/18592-yongzhou-men-in-the-xiang-army.md)
 - [左宗棠故居——柳庄：十年耕读，终成一代名臣](./2026/11012-zuo-zongtang-former-residence-liuzhuang-ten-years.md)
 - [看见颜料想起了自己学画的那几年](./2026/5275-memories_of_learning_to_paint.md)
 - [麓山南路](./2026/5234-lushan-south-road.md)
