@@ -1,0 +1,27 @@
+{
+  // VitePress 纯静态站点，使用 Cloudflare Workers Static Assets 托管（无 Worker 脚本）
+  "name": "docs-isharkfly-com",
+  "compatibility_date": "2025-11-01",
+  "assets": {
+    // vitepress build 默认输出目录（相对项目根目录）
+    "directory": ".vitepress/dist",
+    // VitePress 会生成 404.html
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  },
+  // 允许 PR / 分支通过 versions upload 生成 Preview URL
+  "preview_urls": true,
+
+  "env": {
+    // Tag 构建部署到此环境：Worker 名称为 docs-isharkfly-com-production
+    "production": {
+      "assets": {
+        "directory": ".vitepress/dist",
+        "not_found_handling": "404-page",
+        "html_handling": "auto-trailing-slash"
+      }
+      // DNS 切换到 Cloudflare 后再启用自定义域名：
+      // "routes": [{ "pattern": "docs.isharkfly.com", "custom_domain": true }]
+    }
+  }
+}
