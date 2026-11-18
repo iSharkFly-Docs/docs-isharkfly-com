@@ -121,7 +121,7 @@ pipeline {
                     subject: "Build ${currentBuild.currentResult}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
                     body: '${DEFAULT_CONTENT}',
                     from: 'postmaster@mail.sharkdat.com',
-                    to: 'dev@sharkdat.com'
+                    to: 'dev@sharkdat.com, dev@sharkdat.cn'
                 )
             }
         }
