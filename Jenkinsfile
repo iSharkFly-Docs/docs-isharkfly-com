@@ -3,128 +3,138 @@ pipeline {
 
     options {
         ansiColor('xterm')
-        disableConcurrentBuilds()
-        timeout(time: 30, unit: 'MINUTES')
-        buildDiscarder(logRotator(numToKeepStr: '30'))
     }
 
     tools {
-        nodejs 'NodeJS 22.14.0'
+        jdk   'TemurinJDK-17'
+        maven 'Maven 3.8.7'
+        nodejs  'NodeJS 22.14.0'
     }
 
     environment {
+
         PRJ_NAME = 'docs-isharkfly-com'
+        PRJ_VERSION = '0.0.1-SNAPSHOT'
+		REPO_USERNAME     = credentials('86617b35-b114-4604-b054-082c8638bf8e')
+		REPO_PASSWORD     = credentials('c96b3079-b141-43f0-b43a-c9c2adfb14ea')
+		NODE_OPTIONS 	  = '--openssl-legacy-provider'
 
-        // 使用仓库内提交的 Yarn 4（.yarn/releases），无需在 Jenkins 节点上安装 yarn / corepack
-        YARN = 'node .yarn/releases/yarn-4.9.1.cjs'
-        // wrangler 不在 devDependencies 中，固定主版本，避免 npx 拉到不兼容的新版本
-        WRANGLER = 'npx --yes wrangler@4'
+		// AWS
+		AWS_ACCOUNT_ID = credentials('stonex_aws_account_id')
+		AWS_REGION     = 'us-east-1'
+		AWS_ACCESS_KEY_ID = credentials('stonex_aws_access_key_id')
+		AWS_SECRET_ACCESS_KEY = credentials('stonex_secret_access_key')
 
-        // Cloudflare API Token（Jenkins Secret text 凭据，需要 Workers Scripts:Edit 权限）
-        CLOUDFLARE_API_TOKEN = credentials('sharkdat-cloudflare-api-token')
-        // Cloudflare Account ID（Secret text 凭据），避免 wrangler 调用 /memberships 查询账号
-        CLOUDFLARE_ACCOUNT_ID = credentials('sharkdat-cloudflare-account-id')
+		// AWS - ECR
+		IMAGE_REPO_NAME = 'stonex/app-service'
+		IMAGE_TAG      = 'latest'
+		REPOSITORY_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${IMAGE_REPO_NAME}"
 
-        // 不让 wrangler 发送使用统计、不弹交互提示
-        WRANGLER_SEND_METRICS = 'false'
-        CI = 'true'
-        // VitePress 文档较多，构建时适当放宽 Node 堆内存
-        NODE_OPTIONS = '--max-old-space-size=4096'
     }
 
-    stages {
-        stage('Configure') {
+     stages {
+	    stage("Configure"){
+			steps {
+			    script {
+			        // This command should run on the agent to configure the git environment
+                    sh 'git config --global url."https://github.com/".insteadOf git://github.com/'
+                    sh '''
+                        set -eu
+                        corepack enable
+                    '''
+
+			    }
+// 			    git branch: 'main',
+// 			        credentialsId: 'c9d0ec7c-0749-4588-8960-e96cab84d462',
+// 			        url: 'https://src.isharkfly.com/USVisaTrack/Usvisatrack-Ui.git'
+			}
+		}
+
+        stage("Install") {
             steps {
-                sh 'git config --global url."https://github.com/".insteadOf git://github.com/'
-                sh 'node --version && npm --version && ${YARN} --version'
+                sh '''
+                    rm -rf node_modules
+                    pnpm install --frozen-lockfile
+                    pnpm approve-builds --all
+                '''
             }
         }
 
-        stage('Install') {
-            steps {
-                // 等价于 npm ci：lockfile 有变化时直接失败
-                sh '${YARN} install --immutable'
-            }
-        }
+		stage('Build / Package') {
+		    steps {
+                sh '''
+                    npx browserslist@latest --update-db
+                    npm run docs:build
+                '''
+		    }
+		}
 
-        stage('Build') {
-            steps {
-                echo 'Build VitePress docs ...'
-                sh '${YARN} docs:build'
-            }
-        }
-
-        stage('Deploy - CF') {
+        stage('Deploy to Cloudflare') {
             steps {
                 script {
-                    withEnv([
-                        'LANG=C.UTF-8',
-                        'LC_ALL=C.UTF-8',
-                        'NO_COLOR=1',
-                        'TERM=dumb'
-                    ]) {
-                        // 部署消息：显示在 Cloudflare 控制台 → Worker → Deployments
-                        def shortSha = env.GIT_COMMIT ? env.GIT_COMMIT.take(7) : 'unknown'
-                        def deployMsg = "Jenkins ${env.JOB_NAME} #${env.BUILD_NUMBER} (${shortSha})"
+                    def branchArg = env.CHANGE_ID
+                        ? "pr-${env.CHANGE_ID}"
+                        : env.BRANCH_NAME.replaceAll('/', '-')
 
-                        // Tag 构建：部署到 production 环境（wrangler.jsonc 中的 env.production）
-                        if (env.TAG_NAME?.trim()) {
-                            sh """
-                                \${WRANGLER} deploy --env production \\
-                                  --message '${deployMsg}' \\
-                                  --tag '${env.TAG_NAME}'
-                            """
-                            return
-                        }
-
-                        // main 分支：部署默认 Worker
-                        if (env.BRANCH_NAME == 'main') {
-                            sh """
-                                \${WRANGLER} deploy --env="" \\
-                                  --message '${deployMsg}' \\
-                                  --tag '${shortSha}'
-                            """
-                            return
-                        }
-
-                        // PR 或其他分支：上传 Preview Version，不影响线上流量
-                        def branchArg = env.CHANGE_ID
-                            ? "pr-${env.CHANGE_ID}"
-                            : env.BRANCH_NAME
-                        def previewAlias = branchArg
-                            .toLowerCase()
-                            .replaceAll(/[^a-z0-9-]+/, '-')
-                            .replaceAll(/^-+|-+$/, '')
-
-                        // 打印当前 token 所属账号，便于排查 "Worker does not yet exist"（通常是账号不对，
-                        // 或默认 Worker 还没有通过 main 分支部署过一次）
-                        sh '${WRANGLER} whoami'
-                        sh """
-                            \${WRANGLER} versions upload --env="" \\
-                              --preview-alias '${previewAlias}' \\
-                              --message '${deployMsg}'
-                        """
+                    if (env.BRANCH_NAME == 'main') {
+                        sh 'pnpm exec wrangler deploy'
+                    } else {
+                        sh "pnpm exec wrangler versions upload --preview-alias ${branchArg}"
                     }
                 }
             }
         }
-    }
 
-    post {
-        always {
-            script {
-                env.BUILD_STARTED_AT = new Date(currentBuild.startTimeInMillis)
-                    .format('yyyy-MM-dd HH:mm:ss z', TimeZone.getTimeZone('America/New_York'))
-                env.BUILD_DURATION_TEXT = currentBuild.durationString
+//         stage('Build Docker') {
+//             steps {
+//                 echo 'Build Docker ...'
+//                 sh 'docker image prune -f'
+// //                 sh 'docker build -f Dockerfile -t ${PRJ_NAME}:${PRJ_VERSION} --label ${PRJ_NAME} .'
+//                 sh 'docker build -f Dockerfile -t ${REPOSITORY_URI}:${IMAGE_TAG} --label ${PRJ_NAME} .'
+//             }
+//         }
 
-                emailext (
-                    mimeType: 'text/html; charset=UTF-8',
-                    subject: "Build ${currentBuild.currentResult}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
-                    body: '${DEFAULT_CONTENT}',
-                    from: 'postmaster@mail.sharkdat.com',
-                    to: 'dev@sharkdat.com'
-                )
-            }
-        }
+
+//         stage('Docker Deploy - ECR') {
+//             steps {
+//                 echo 'Deploying To Docker Repo....'
+//                 withCredentials([
+//                                     [$class: 'AmazonWebServicesCredentialsBinding',
+//                                      credentialsId: 'stonex-creds', // The ID from Step 2
+//                                      accessKeyVariable: 'AWS_ACCESS_KEY_ID',
+//                                      secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']
+//                                 ]) {
+//                                     // Authenticate Docker with ECR
+//                                     sh "aws ecr get-login-password --region ${AWS_REGION} | docker login --username AWS --password-stdin ${REPOSITORY_URI}"
+//
+//                                                     // Push the built image
+//                                                     sh "docker push ${REPOSITORY_URI}:${IMAGE_TAG}"
+//                                 }
+//
+// //                 }
+//         	}
+//         }
+
+
+//         stage('Deploy Docker') {
+//             steps {
+//                 echo 'Deploying To Docker Repo....'
+//                 sh 'docker tag ${PRJ_NAME}:${PRJ_VERSION} repo-docker.isharkfly.com/docker-hub/${PRJ_NAME}:${PRJ_VERSION}'
+//                 sh 'docker tag ${PRJ_NAME}:${PRJ_VERSION} repo-docker.isharkfly.com/docker-hub/${PRJ_NAME}:latest'
+//
+//                 sh 'docker login repo-docker.isharkfly.com --username ${REPO_USERNAME} --password ${REPO_PASSWORD}'
+//                 sh 'docker push repo-docker.isharkfly.com/docker-hub/${PRJ_NAME}:${PRJ_VERSION}'
+//                 sh 'docker push repo-docker.isharkfly.com/docker-hub/${PRJ_NAME}:latest'
+// 			}
+// 		}
+//
+//         stage('Deploy Server') {
+//             steps {
+//                 echo 'Deploying To Server ....'
+//                 dir('deploy') {
+//                     sh 'ansible-playbook site.yml'
+//                 }
+// 			}
+// 		}
     }
 }

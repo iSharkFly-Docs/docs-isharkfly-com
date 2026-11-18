@@ -17,9 +17,6 @@ hero:
       text: 产品应用
       link: /product
     - theme: alt
-      text: 组织和基金会
-      link: /product
-    - theme: alt
       text: 数据结构和算法
       link: /product
     - theme: alt
@@ -29,8 +26,11 @@ hero:
       text: 职场和面试
       link: /work
     - theme: alt
+      text: 人文
+      link: /misc/culture
+    - theme: alt
       text: 短文
-      link: /article
+      link: /misc/essay
       
 features:
   - title: iSharkFly 文档项目
@@ -39,6 +39,7 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: 快速导航
     details: 针对不同内容的网站，请参考本页面底部的快速导航链接。
+    link: /navigation
 ---
 
 ---
