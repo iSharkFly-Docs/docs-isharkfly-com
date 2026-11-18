@@ -57,52 +57,53 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             {text: 'Mumps', link: '/programming-language/mumps/'}
                         ]
                     },
-                ]
-            },
-            {
-                text: '框架和库',
-                collapsed: true,
-                link: '/framework/',
-                items: [
                     {
-                        text: 'Spring',
+                        text: '框架和库',
                         collapsed: true,
+                        link: '/framework/',
                         items: [
                             {
-                                text: 'Java', link: '/programming-language/java/', collapsed: true,
+                                text: 'Spring',
+                                collapsed: true,
                                 items: [
-                                    {text: '核心编程', link: '/programming-language/java/core/'},
+                                    {
+                                        text: 'Java', link: '/programming-language/java/', collapsed: true,
+                                        items: [
+                                            {text: '核心编程', link: '/programming-language/java/core/'},
 
+                                        ]
+                                    },
+                                    {text: 'Python', link: '/programming-language/python/'},
+                                    {text: 'Mumps', link: '/programming-language/mumps/'}
                                 ]
                             },
-                            {text: 'Python', link: '/programming-language/python/'},
-                            {text: 'Mumps', link: '/programming-language/mumps/'}
+                            {
+                                text: 'Node',
+                                collapsed: true,
+                                items: [
+                                    {text: 'Yarn', link: '/framework/node/yarn', collapsed: true,},
+                                ]
+                            },
                         ]
                     },
                     {
-                        text: 'Node',
+                        text: 'DevOps',
                         collapsed: true,
+                        link: '/dev-ops/',
                         items: [
-                            {text: 'Yarn', link: '/framework/node/yarn', collapsed: true,},
-                        ]
-                    },
-                ]
-            },
-            {
-                text: 'DevOps',
-                collapsed: true,
-                link: '/dev-ops/',
-                items: [
-                    {text: 'OS', link: '/dev-ops/os/linux'},
-                    {
-                        text: '数据库', link: '/dev-ops/database/',
-                        items: [
-                            {text: 'PostgreSQL', link: '/dev-ops/database/postgresql.md'},
-                            {text: 'MariaDB/MySQL', link: '/dev-ops/database/mariadb.md'},
-                        ]
-                    },
-                    {text: 'Docker', link: '/dev-ops/container/docker.md'},
+                            {text: 'OS', link: '/dev-ops/os/linux'},
+                            {
+                                text: '数据库', link: '/dev-ops/database/',
+                                items: [
+                                    {text: 'PostgreSQL', link: '/dev-ops/database/postgresql.md'},
+                                    {text: 'MariaDB/MySQL', link: '/dev-ops/database/mariadb.md'},
+                                ]
+                            },
+                            {text: 'Docker', link: '/dev-ops/container/docker.md'},
 
+                        ]
+                    },
+                    {  text: 'AI', collapsed: true, link: '/ai/'}
                 ]
             },
             {
