@@ -1,7 +1,8 @@
 {
+  "$schema": "./node_modules/wrangler/config-schema.json",
   // VitePress 纯静态站点，使用 Cloudflare Workers Static Assets 托管（无 Worker 脚本）
   "name": "docs-isharkfly-com",
-  "compatibility_date": "2025-11-01",
+  "compatibility_date": "2026-06-25",
   "assets": {
     // vitepress build 默认输出目录（相对项目根目录）
     "directory": ".vitepress/dist",
@@ -11,6 +12,23 @@
   },
   // 允许 PR / 分支通过 versions upload 生成 Preview URL
   "preview_urls": true,
+
+  // 原 wrangler.toml 中的可观测性配置
+  "observability": {
+    "enabled": false,
+    "head_sampling_rate": 1,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "persist": true,
+      "invocation_logs": true
+    },
+    "traces": {
+      "enabled": false,
+      "persist": true,
+      "head_sampling_rate": 1
+    }
+  },
 
   "env": {
     // Tag 构建部署到此环境：Worker 名称为 docs-isharkfly-com-production
